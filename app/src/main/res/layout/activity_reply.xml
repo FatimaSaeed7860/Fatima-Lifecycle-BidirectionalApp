@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_vertical"
+    android:background="#FFF8F0">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Screen 2: Reply"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#7A3E00"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/receivedMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Message received:"
+        android:textSize="18sp"
+        android:layout_marginBottom="18dp" />
+
+    <EditText
+        android:id="@+id/replyInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type your reply"
+        android:inputType="textCapSentences"
+        android:minHeight="52dp"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/replyButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Reply"
+        android:layout_marginTop="14dp" />
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_vertical"
+    android:background="#F5F7FB">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activity Lifecycle &amp; Bidirectional Intent"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#17365D"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Screen 1: Enter a message to send to Screen 2."
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:id="@+id/messageInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type your message"
+        android:inputType="textCapSentences"
+        android:minHeight="52dp"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send to Screen 2"
+        android:layout_marginTop="14dp" />
+
+    <TextView
+        android:id="@+id/replyText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reply will appear here."
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp" />
+</LinearLayout>
